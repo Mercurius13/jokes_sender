@@ -2,7 +2,7 @@ from trycourier import Courier
 import random
 import json
 
-client = Courier(auth_token="dk_prod_8ERJE7RPPSMQXSKP53CNKQCV7MYG")
+client = Courier(auth_token="NoNeOfYoUrBuSiNeSs")
 
 with open("text_files/jokes.json", "r", encoding="utf-8") as f:
     jokes_json = json.load(f)
